@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-white text-gray-800;
+}
+
+.filter-btn {
+  @apply px-4 py-2 rounded-full transition-all duration-200;
+  @apply hover:bg-primary hover:text-white;
+}
+
+.filter-btn.active {
+  @apply bg-primary text-white;
+}
